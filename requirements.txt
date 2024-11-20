@@ -1,0 +1,6 @@
+#adafruit-circuitpython-rplidar
+pyserial
+matplotlib
+pygame
+
+rplidar-roboticia
