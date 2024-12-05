@@ -4,3 +4,10 @@ matplotlib
 pygame
 
 rplidar-roboticia
+RPi.GPIO
+gpiozero
+
+opencv-pythons
+torch
+torchvision
+pandass
