@@ -2,7 +2,7 @@ from picamera2 import Picamera2
 import cv2
 import numpy as np
 
-# Load the MobileNet SSD model
+
 model_path = "MobileNetSSD/"
 net = cv2.dnn.readNetFromCaffe(
     model_path + "deploy.prototxt",

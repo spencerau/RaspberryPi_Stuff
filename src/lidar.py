@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from rplidar import RPLidar
 import matplotlib
 
+
 matplotlib.use('TkAgg')
 plt.ion()
 

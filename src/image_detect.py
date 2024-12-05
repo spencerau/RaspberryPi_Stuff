@@ -2,6 +2,7 @@ import os
 import cv2
 import numpy as np
 
+
 model_path = "MobileNetSSD/"
 net = cv2.dnn.readNetFromCaffe(
     model_path + "deploy.prototxt",

@@ -4,11 +4,9 @@ import cv2
 import os
 
 def main():
-    # Ensure output directory exists
     output_dir = "output"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Initialize Lidar and Cameras
     lidar = Lidar(sensor_model="RPLidar A1")
     empty_spaces = lidar.detect_empty_spaces()
 
